@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Slide_1 from '../assets/Hoarding - W 1920 x 900 H pix_3_final.jpg';
-import Slide_2 from '../assets/Hoarding - W 1920 x 900 H pix_3.jpg';
+import Slide_2 from '../assets/Van - W 1920 x 900 H pix.jpg';
 import Slide_3 from '../assets/Volvo Unboxing Cover.png';
 import Slide_4 from '../assets/volvo-add.png';
 
