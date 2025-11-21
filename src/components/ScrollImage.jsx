@@ -1,13 +1,12 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import Slide_1 from '../assets/Hoarding - W 1920 x 900 H pix_3_final.jpg';
-import Slide_2 from '../assets/Van - W 1920 x 900 H pix.jpg';
-import Slide_3 from '../assets/Volvo Unboxing Cover.png';
-import Slide_4 from '../assets/volvo-add.png';
+import Slide_1 from '../assets/works/Hoarding-1.jpg';
+import Slide_3 from '../assets/works/Hoarding - 2.jpg';
+import Slide_2 from '../assets/works/Hoarding - 3.jpg';
 
 
 
-const images = [Slide_1, Slide_2, Slide_3, Slide_4];
+const images = [Slide_1, Slide_2, Slide_3];
 
 const ScrollImage = () => {
   const targetRef = useRef(null);
@@ -19,7 +18,7 @@ const ScrollImage = () => {
 
   const x = useTransform(
     scrollYProgress,
-    [0, 1],
+    [0, 0.5],
     [0, -((images.length - 1) * window.innerWidth)] // scroll distance
   );
 
@@ -33,7 +32,7 @@ const ScrollImage = () => {
         style={{
           position: 'sticky',
           top: 0,
-          height: '90dvh',
+          height: '100dvh',
           overflow: 'hidden',
         }}
       >
