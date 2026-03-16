@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="md:px-20 px-5 md:pt-0 py-10 bg-gradient-to-r from-[#000000] to-[#07106a]">
+      <footer className="md:px-20 px-5 md:pt-0 py-10 bg-gradient-to-r from-[#000000] to-[#07106a]" id="footer">
         
         <FallingText />
         <div className="footer-all md:flex justify-between md:py-5 py-10">
@@ -17,7 +17,7 @@ const Footer = () => {
               <ul className="">
                 <li className="py-3">
                   <a
-                    href="#"
+                    href="https://digital-experience.prismadverto.com/"
                     className="text-black bg-[#ffffff88] py-2 px-7 rounded-4xl transition-all duration-300 ease-in-out hover:bg-white hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] hover:scale-105"
                   >
                     Online Advertisement
@@ -25,7 +25,7 @@ const Footer = () => {
                 </li>
                 <li className="py-3">
                   <a
-                    href="#"
+                    href="https://offline-advertising.prismadverto.com/"
                     className="text-black bg-[#ffffff88] py-2 px-7 rounded-4xl transition-all duration-300 ease-in-out hover:bg-white hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] hover:scale-105"
                   >
                     Offline Advertisement
@@ -33,7 +33,7 @@ const Footer = () => {
                 </li>
                 <li className="py-3">
                   <a
-                    href="#"
+                    href="https://brand-consulting.prismadverto.com/"
                     className="text-black bg-[#ffffff88] py-2 px-7 rounded-4xl transition-all duration-300 ease-in-out hover:bg-white hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] hover:scale-105"
                   >
                     Brand Consulting

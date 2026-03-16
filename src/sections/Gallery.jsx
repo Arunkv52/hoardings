@@ -3,7 +3,7 @@ import ScrollImage from '../components/ScrollImage'
 
 const Gallery = () => {
   return (
-    <div className='bg-black md:py-20 py-10'>
+    <div className='bg-black md:py-20 py-10' id='about'>
       <ScrollImage />
       <div className='scr-txt md:pt-20 pt-0 md:px-20 px-5 md:flex text-white'>
         <div className='md:w-1/2 w-full  md:pb-0 pb-10'>

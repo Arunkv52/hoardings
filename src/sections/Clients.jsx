@@ -16,7 +16,7 @@ import Logo_12 from "../assets/Client-logo/Logo-326-x162_46.png";
 const Clients = () => {
   return (
     <>
-      <div className="md:px-20 px-5 md:py-20 py-15">
+      <div className="md:px-20 px-5 md:py-20 py-15" id="clients">
         <div className="md:flex justify-between items-center pb-10">
           <h6 className="md:text-5xl text-3xl md:font-normal font-semibold">Clients</h6>
           <p className="md:text-2xl text-[18px] md:pt-0 pt-3">

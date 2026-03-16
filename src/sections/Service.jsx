@@ -5,7 +5,7 @@ import CarousalImage from '../components/CarousalImage'
 const Service = () => {
   return (
     <>
-      <div className='md:py-50 py-10 bg-black'>
+      <div className='md:py-50 py-10 bg-black' id='services'>
         <h1 className='text-white  md:px-20 px-5 md:text-3xl text-[24px] pb-10'> Beyond Hoardings – Complete Brand  Visibility Solutions</h1>
         <div className='ser-box md:flex justify-content-between align-top gap-5 md:px-20 px-5'>
           <h2 className='text-white md:text-3xl text-[24px] md:py-0 py-10'>

@@ -160,10 +160,10 @@ export default function DarkVeil({
         <h4 className="text-white md:ml-40">On Display</h4>
         <div className="btn py-5 flex flex-wrap justify-center gap-5">
           <button className="text-black md:text-[16px] text-[18px] bg-white md:py-4 py-3 md:px-10 px-15 rounded-3xl hover:bg-[#a79cfc] hover:text-white transition-all font-normal">
-            <a href="#">Contact us</a>
+            <a href="#contact-item">Contact us</a>
           </button>
           <button className="text-white/50 md:text-[16px] text-[18px] bg-[#1e1d1d] border-[1px] border-white/50 md:py-4 py-3 md:px-10 px-15 rounded-3xl hover:bg-white  hover:text-black  hover:shadow-[1px_0px_48px_-4px_#fcae16] transition-all font-normal">
-            <a href="#">Know more</a>
+            <a href="#footer">Know more</a>
           </button>
         </div>
       </div>

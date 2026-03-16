@@ -22,7 +22,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="form-all md:py-30 py-15 md:px-20 px-5 md:flex justify-between">
+      <div className="form-all md:py-30 py-15 md:px-20 px-5 md:flex justify-between" id="contact-item">
         <div className="form-left md:w-1/2 w-full">
           <h1 className="text-black md:text-7xl text-4xl font-semibold">
             Ready to make a lasting impact with your Hoarding?

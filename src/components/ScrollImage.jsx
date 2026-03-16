@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import Slide_1 from '../assets/works/Hoarding-1.jpg';
-import Slide_3 from '../assets/works/Hoarding - 2.jpg';
-import Slide_2 from '../assets/works/Hoarding - 3.jpg';
+import Slide_1 from '../assets/hoarding-1.jpg';
+import Slide_3 from '../assets/Hoarding - 2.jpg';
+import Slide_2 from '../assets/Hoarding - 3.jpg';
 
 
 

@@ -6,7 +6,10 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
-import ImageCar from "../assets/Volvo Unboxing Cover.png";
+import Image1 from "../assets/img1.webp";
+import Image2 from "../assets/img2.webp";
+import Image3 from "../assets/img3.webp";
+
 
 
 const CarousalImage = () => {
@@ -16,7 +19,7 @@ const CarousalImage = () => {
                 <CarouselContent>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/2 cursor-grab">
                         <div className="serve-1 md:pb-0 pb-10">
-                            <img src={ImageCar} alt="" />
+                            <img src={Image1} alt="" />
                             <h4 className="md:text-2xl text-[20px] text-white pt-5">
                                 Van Campaigns
                             </h4>
@@ -27,7 +30,7 @@ const CarousalImage = () => {
                     </CarouselItem>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/2 cursor-grab">
                         <div className="serve-1 md:pb-0 pb-10">
-                            <img src={ImageCar} alt="" />
+                            <img src={Image2} alt="" />
                             <h4 className="md:text-2xl text-[20px] text-white pt-5">
                                 Theatre Advertising
                             </h4>
@@ -38,7 +41,7 @@ const CarousalImage = () => {
                     </CarouselItem>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/2 cursor-grab">
                         <div className="serve-1 md:pb-0 pb-10">
-                            <img src={ImageCar} alt="" />
+                            <img src={Image3} alt="" />
                             <h4 className="md:text-2xl text-[20px] text-white pt-5">
                                Wall Wrapping
                             </h4>
