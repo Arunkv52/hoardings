@@ -107,10 +107,9 @@ const Footer = () => {
                       Artistic Wing # 3A, Coimbatore, Tamilnadu 641 029.
                     </p>
                     <p className="text-[16px] font-light">
-                      project@prismadverto.net
-                    </p>
+                      marketing@prismadverto.com</p>
                     <p className="text-[16px] font-light">
-                      +91 75988 35353, +91 99409 35353
+                      +91 89038 55353, +91 99409 35353
                     </p>
                   </div>
                 </li>
@@ -129,7 +128,7 @@ const Footer = () => {
                       NO: 2827 N Shiloh Rd # 252 Garland, Texas 75044.
                     </p>
                     <p className="text-[16px] font-light">
-                      expert@prismadverto.net
+                      digitalspecialist@prismadverto.net
                     </p>
                     <p className="text-[16px] font-light">+1 480-213-3701</p>
                   </div>
